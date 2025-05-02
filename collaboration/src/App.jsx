@@ -1,5 +1,6 @@
 import potoWildan from "./assets/PotoWildan.jpg";
 import potoFathan from "./assets/ancur.jpg";
+import potoFadgham from "./assets/Fotofadgham.jpg";
 
 export default function App() {
   return (
@@ -9,6 +10,10 @@ export default function App() {
 
       <h1 className="text-3xl font-bold">Ini Project -Fathan</h1>
       <img src={potoFathan} alt="" className="w-1/2" />
+
+
+      <h1 className="text-3xl font-bold">Ini Project -Fadgham</h1>
+      <img src={potoFadgham} alt="" className="w-1/2" />
     </>
   );
 }
